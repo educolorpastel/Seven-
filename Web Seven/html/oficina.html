@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SE7EN</title>
+  <link rel="icon"sizes="50x50" href="/img/Logo-seven.jpg">
+  <link rel="stylesheet" href="../CSS/styleindex.css">
+  <link rel="stylesheet" href="../CSS/oficina.css">
+</head>
+
+<body>
+  <header>
+     <a href="/index.html" class="logo-link">
+  <img src="../img/Logo-seven.jpg"width="10%" alt="Logo de SE7EN" class="logo-img">
+</a>
+  <h1><span> Los 7 Pecados Capitales</span></h1>
+    <nav>
+      <ul>
+        <li><a href="/index.html">Inicio</a></li>
+        <li><a href="expediente.html">Expediente</a></li>
+        <li><a href="evidencia.html">Evidencia</a></li>
+        <li><a href="archivo.html">Archivo</a></li>
+        <li><a href="sospechosos.html">Sospechosos</a></li>
+        <li><a href="reconocimientos.html">Reconocimientos</a></li>
+        <li><a href="oficina.html"class="activo">Oficina</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="oficinas">
+      <article class="oficinas">
+        <h2>Informes</h2>
+        <p>Usted ha accedido al canal interno de la investigación <strong>SE7EN</strong>. Complete los campos a continuación para registrar su testimonio o aportar información relevante. Todo mensaje será analizado por el equipo asignado al caso.</p>
+        <form class="formulario"action="confirmacion.html" method="GET">
+          <label for="nombre">Nombre del agente</label>
+          <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre completo" required>
+
+          <label for="correo">Correo de contacto</label>
+          <input type="email" id="correo" name="correo" placeholder="ejemplo@correo.com" required>
+
+          <label for="asunto">Asunto</label>
+          <input type="text" id="asunto" name="asunto" placeholder="Motivo del informe" required>
+
+          <label for="mensaje">Declaración</label>
+          <textarea id="mensaje" name="mensaje" rows="6" placeholder="Describa su observación o evidencia..." required></textarea>
+
+          <button type="submit" class="boton">Enviar Informe</button>
+        </form>
+      </article>
+    </section>
+  </main>
+
+ <footer>
+    <div class="footer-col">
+      <p>Derechos de autor</p>
+      <p>Comentarios</p>
+    </div>
+    <div class="footer-col">
+      <p>Prensa</p>
+      <p>Ley de Cine</p>
+    </div>
+    <div class="footer-col">
+      <p>Avisos legales</p>
+      <p><a href="mailto:seven@universal.com"class="activo">seven@universal.com</a></p>
+    </div>
+  </footer>
+</body>
+</html>

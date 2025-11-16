@@ -1,0 +1,77 @@
+.identidades {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  padding: 40px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.identidadesA,
+.Perfiles {
+  background: rgba(20, 0, 0, 0.75); 
+  border: 2px solid #8b0000;       
+  border-radius: 15px;
+  padding: 25px;
+  box-shadow: 0 0 25px rgba(255, 0, 0, 0.15);
+  color: #ffffff; 
+}
+
+.identidadesA h2,
+.Perfiles h2 {
+  text-align: center;
+  color: #cb1616; 
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 1.9rem;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #8b0000;
+  padding-bottom: 5px;
+}
+
+
+.identidadesA p,
+.Perfiles p,
+.identidadesA ul p,
+.Perfiles ul p {
+  color: #fff;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.identidadesA img,
+.Perfiles img {
+  width: 100%;
+  border-radius: 10px;
+  border: 2px solid #8b0000;
+  box-shadow: 0 0 15px rgba(255, 0, 0, 0.2);
+  margin-top: 15px;
+}
+
+
+.identidadesA figcaption,
+.Perfiles figcaption {
+  margin-top: 8px;
+  font-size: 0.9rem;
+  color: #ffd95a; 
+  text-align: center;
+}
+
+
+.identidadesA ul,
+.Perfiles ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 15px;
+}
+
+.identidadesA ul p,
+.Perfiles ul p {
+  background: rgba(255, 255, 255, 0.05);
+  border-left: 3px solid #8b0000;
+  padding: 8px 10px;
+  border-radius: 5px;
+}
+
+

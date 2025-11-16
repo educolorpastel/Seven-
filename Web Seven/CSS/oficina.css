@@ -1,0 +1,86 @@
+
+.oficinas {
+  background-color: rgba(20, 0, 0, 0.75);
+  border: 1px solid #ac2f2f;
+  border-radius: 15px;
+  padding: 30px;
+  max-width: 900px;
+  width: 90%;
+  margin: 40px auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 25px;
+  box-shadow: 0 0 25px rgba(255, 0, 0, 0.18);
+}
+
+.oficinas h2 {
+  color: #770000;
+  font-size: 35px;
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+  text-shadow: 0 0 12px rgba(255, 0, 0, 0.3);
+}
+
+
+.oficinas p {
+  line-height: 1.6;
+  color: #f2f2f2;
+  text-shadow: 0 0 4px rgba(255, 0, 0, 0.15);
+}
+
+
+.oficinas .formulario {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.oficinas .formulario label {
+  color: darkgoldenrod;
+  grid-column: span 2;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.oficinas .formulario input,
+.oficinas .formulario textarea {
+  width: 100%;
+  padding: 10px;
+  background-color: #0f0f0f;
+  border: 1px solid #550000;
+  color: #e6e6e6;
+  border-radius: 8px;
+  box-shadow: inset 0 0 8px rgba(255, 0, 0, 0.15);
+  transition: 0.25s;
+}
+
+.oficinas .formulario input:focus,
+.oficinas .formulario textarea:focus {
+  border-color: #aa0000;
+  box-shadow: 0 0 12px rgba(255, 0, 0, 0.4);
+}
+
+
+.oficinas textarea {
+  grid-column: span 2;
+}
+
+
+.oficinas .boton {
+  grid-column: span 2;
+  padding: 12px;
+  background-color: #770000;
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.oficinas .boton:hover {
+  background-color: #aa0000;
+  box-shadow: 0 0 18px rgba(255, 0, 0, 0.35);
+}

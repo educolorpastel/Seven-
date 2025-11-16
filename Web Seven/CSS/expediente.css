@@ -1,0 +1,26 @@
+.informecaso{
+   list-style: none;
+   max-width: 900px;
+   width: 100%;
+   background-color: rgba(20, 0, 0, 0.6);
+   border: 1px solid #cb1616;
+   border-radius: 20px;
+   padding: 35px;
+   box-shadow: 0 0 15px rgba(255, 0, 0, 0.15);
+   text-align: justify;
+   color: aliceblue;
+}
+
+h2 {
+   color:#cb1616;
+   text-align: center;
+}
+
+strong{
+    color: rgb(223, 154, 65);
+}
+
+
+ul {
+    list-style: none;
+}

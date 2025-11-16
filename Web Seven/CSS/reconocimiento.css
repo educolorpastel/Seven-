@@ -1,0 +1,64 @@
+.Premios,
+.Premios2 {
+  background: rgba(20, 0, 0, 0.75); 
+  border: 2px solid #8b0000;       
+  border-radius: 15px;
+  padding: 30px;
+  margin: 40px auto;
+  max-width: 900px;
+  box-shadow: 0 0 25px rgba(255, 0, 0, 0.15);
+  color: #ffffff;
+}
+
+.Premios h2,
+.Premios2 h2 {
+  text-align: center;
+  color:#a80028;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 2rem;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #8b0000;
+  padding-bottom: 6px;
+}
+
+.Premios p,
+.Premios2 p {
+  color: #fff;
+  line-height: 1.6;
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+.Premios ul p,
+.Premios2 ul p {
+  background: rgba(255, 255, 255, 0.05);
+  border-left: 3px solid #8b0000;
+  padding: 8px 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.Premios figure,
+.Premios2 figure {
+  margin-top: 25px;
+  text-align: center;
+}
+
+.Premios img,
+.Premios2 img {
+  width: 100%;
+  border: 2px solid #8b0000;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(255, 0, 0, 0.2);
+}
+
+.Premios figcaption,
+.Premios2 figcaption {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: #ffd95a;
+}
+
+
